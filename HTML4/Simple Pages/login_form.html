@@ -4,27 +4,30 @@
 	<head>
 			<title>Login Form</title>
 			<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-			<meta name="keywords" content="about,me,introduction">
+            <link  rel="stylesheet" type="text/css" href="css/form.css">
+            <meta name="keywords" content="about,me,introduction">
 			<meta name="discription" content="This is discription of this page">
 			<meta name="author" content="sharjeel">
 	</head>
 
 	<body>
-		<h1> Login Form </h1>
-		<form action="" method="POST">
-			<div>
+	    <h1> User Registration</h1>
+		<div class="container">
+            <form action="" method="POST">
+			<div class="form-input">
 				<label for="login">Login : </label>
-				<input id="login" type="text">
+				<input id="login" type="text" autofocus>
 			</div>
-			
-			<div>
+
+            <div class="form-input">
 				<label>Password : </label>
 				<input id="password" type="password">
 			</div>
-			<div>
-				<input type="submit" value="submit">
-			</div>
+			<div class="form-input">
+				<input type="submit" value="Submit">
+            </div>
 		</form>
+		</div>
 	</body>
 	
 </html>
