@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Untitled</title>
+  <style>
+        html,body{
+            height : 100%;
+        }
+
+        *{
+            box-sizing: border-box;
+        }
+
+        #sectionHeader{
+            width: 100%;
+            height: 15%;
+            margin-bottom: 5px;
+            border: 1px solid red;
+        }
+        #sectionHeader header{
+            width : 100%;
+            margin : auto;
+            padding : auto;
+            border : 1px dashed black;
+        }
+        #sectionHeader header h1{
+            padding : auto;
+            border : 10px solid pink;
+            text-align: center;  <!-- why padding not work -->
+        }
+
+        #nav-section{
+            float : left;
+            width : 20%;
+            height : 100%;  
+            display: inline-block;
+            border: 10px solid red;
+            margin : auto;
+        }
+
+        #main{
+            margin-left : 1%;
+            display: inline-block;
+            width : 79%;
+            height: 100%;
+            border: 10px dashed black;
+        }
+        #main #content{
+            width : 100%;
+            height : 80%;
+            border : 5px solid gray;
+            position : relative;
+
+        }
+        #main #content p{
+            display : inline-block;
+
+        }
+        #advertisment{
+              display : inline-block;
+              width : 25%;
+              height: 65%;
+              border: 2px solid orange;
+              position : absolute;
+              float : right;
+              top : 50px;
+              right: 0px;
+        }
+
+         #foot{
+             width : 76.6%;
+             height : 20%;
+             border :5px solid cyan;
+             position : absolute;
+         }
+
+  </style>
+</head>
+
+<body>
+        <section id="sectionHeader">
+            <header>
+                <h1>
+                    Heading
+                </h1>
+
+            </header>
+        </section>
+        <section id="nav-section">
+                <nav>
+                        <ul>
+                            <li>a</li>
+                            <li>a</li>
+                            <li>a</li>
+                            <li>a</li>
+                            <li>a</li>
+
+                        </ul>
+
+                </nav>
+
+        </section>
+        <section id="main">
+            <article id="content">
+                <p>This is test content
+                dkldj kjdkfjaksd kdsjkfajdkfj
+                dfhakdjfkajsdlk kjdkfjakldjf
+                djfhakjdsfkljaslkf dfkjdsklfjlaksdjfklsajdlkfjasdkl
+                hkjhjdahf jksdhjfh lkahaj hdsjhf jahdjhj ahjhd ak hsjsdh kaka  ajhdj
+                This is test content
+                dkldj kjdkfjaksd kdsjkfajdkfj
+                dfhakdjfkajsdlk kjdkfjakldjf
+                djfhakjdsfkljaslkf dfkjdsklfjlaksdjfklsajdlkfjasdkl
+                hkjhjdahf jksdhjfh lkahaj hdsjhf jahdjhj ahjhd ak hsjsdh kaka  ajhdj</p>
+            <aside id="advertisment">
+
+             </aside>
+            </article>
+
+            <footer id="foot">
+                <p>footer</p>
+            </footer>
+        </section>
+
+</body>
+
+</html>
